@@ -1,0 +1,30 @@
+{
+  "name": "claudia-pouchdb-replication-stream",
+  "version": "0.0.1",
+  "description": "This module provides a AWS Lambda endpoint for streaming bulk couchdb changes to pouchdb. It makes use of the great PouchDB Replication Stream module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luandro/claudia-pouchdb-repication-stream.git"
+  },
+  "keywords": [
+    "claudia",
+    "lambda",
+    "pouchdb",
+    "replication"
+  ],
+  "author": "Luandro Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luandro/claudia-pouchdb-replicate-stream/issues"
+  },
+  "homepage": "https://github.com/luandro/claudia-pouchdb-replicate-stream#readme",
+  "dependencies": {
+    "memorystream": "^0.3.1",
+    "pouchdb": "^5.4.0",
+    "pouchdb-replication-stream": "^1.2.6"
+  }
+}
